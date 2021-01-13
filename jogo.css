@@ -1,0 +1,74 @@
+
+#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9,#card10,#card11,#card12{
+    background-color: rgb(219, 161, 36);
+    width: 362px;
+    height: 522px;
+    text-align: center;
+    align-content: center;
+    margin: 43px;
+    margin-left: 185px;
+    border-radius: 10%;
+    }   
+ #image{
+        text-align: center;
+        height: 59%;
+        width: 306px;
+        padding-top: 8px;
+        border-radius: 27px;
+        
+ }
+ #chapeu{
+
+    margin-left: 1px;
+    height: 100px;
+    width: 100px;
+ }
+ #Titulo{
+        
+        text-align: center;
+}
+        
+body{
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: orange;
+        margin-left: -14px;
+        
+ }  
+
+ button{
+
+    border: none;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    width: 23%;
+    height: 171%;
+    margin-left: 750px;
+ }
+ button:hover{
+
+    background-color: rgb(230, 143, 68);
+}
+#recorde{
+
+   background-color: orange;
+   width: 122px;
+   height: 27px;
+   border-radius: 5px;
+   margin-left: 39%;
+   margin-bottom: -2%;
+
+}
+#recorde2{
+
+   background-color: orange;
+   width: 120px;
+   height: 25px;
+   border-radius: 5px;
+   margin-left: 27%;
+   margin-top: -1%;
+}
+
+
+
