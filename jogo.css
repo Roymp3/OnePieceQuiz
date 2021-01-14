@@ -6,7 +6,7 @@
     text-align: center;
     align-content: center;
     margin: 43px;
-    margin-left: 185px;
+    margin-left: 200px;
     border-radius: 10%;
     }   
  #image{
@@ -34,21 +34,34 @@ body{
         grid-template-columns: auto auto;
         background-color: orange;
         margin-left: -14px;
+        font-family:arial;
+        font-size: 12px;
         
  }  
 
- button{
+ #resp{
 
     border: none;
     background-color: rgb(255, 166, 0);
     border-radius: 5px;
     width: 23%;
-    height: 171%;
-    margin-left: 750px;
- }
- button:hover{
+    height: 99%;
+    margin-left: 723px;
+    margin-top: -49px;
+}
+ #resp:hover{
 
     background-color: rgb(230, 143, 68);
+}
+#ranking{
+
+   border: none;
+   background-color: rgb(255, 166, 0);
+   border-radius: 5px;
+   width: 23%;
+   height: 284%;
+   margin-left: 722px;
+   margin-top: -5px;
 }
 #recorde{
 
@@ -56,7 +69,7 @@ body{
    width: 122px;
    height: 27px;
    border-radius: 5px;
-   margin-left: 39%;
+   margin-left: 46%;
    margin-bottom: -2%;
 
 }
@@ -69,6 +82,7 @@ body{
    margin-left: 27%;
    margin-top: -1%;
 }
+
 
 
 
