@@ -175,15 +175,21 @@ soma = score[0] + score[1] + score[2] + score[3] + score[4] + score[5] + score[6
 localStorage.setItem("soma", soma)
 let a = localStorage.getItem("soma");
 
+// for(var i = 0;)
+
 if(localStorage.getItem("soma") > a){
 
-  document.getElementById("saida").textContent = localStorage.getItem("soma")
+  document.getElementById("saida").textContent = localStorage.getItem("soma") + " de 120"
   document.textContent("saida2").textContent = localStorage.getItem("soma")
 }
 else{
 
-  document.getElementById("saida").textContent = localStorage.getItem("soma")
+  document.getElementById("saida").textContent = localStorage.getItem("soma") + " de 120"
   document.getElementById("saida2").textContent = a;
 }
+}
+function refresh(){
+
+    window.location.reload();
 
 }
