@@ -9,7 +9,7 @@
         border-radius: 10%;
         margin: 0px;
         margin-top: 32px;
-        box-shadow: rgb(255, 202, 103) 6px 6px;
+        box-shadow: rgb(255, 202, 103) 6px 6px 6px;
     }
   
     #image{
@@ -62,6 +62,11 @@
         margin-bottom: -6px;
     
     }
+    #ranking:hover{
+
+        background-color: rgb(230, 143, 68);
+      }
+      
     
     #recorde{
     

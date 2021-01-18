@@ -1,3 +1,15 @@
+function loadRecord(){
+  let campoRecord = document.getElementById("saida2");
+  campoRecord.textContent = 0;
+  if( localStorage.getItem("ponto") == null &&
+      localStorage.getItem("ponto") == undefined ){
+
+      let ranking = localStorage.getItem("ponto")
+      campoRecord.textContent = ranking
+  }
+}
+
+
 function resposta1(){
 
   let resp = new Array(12);
@@ -171,20 +183,20 @@ else{
 }
 
 
-soma = score[0] + score[1] + score[2] + score[3] + score[4] + score[5] + score[6] + score[7] + score[8] + score[9] + score[10] + score[11];
-localStorage.setItem("soma", soma)
-let a = localStorage.getItem("soma");
+ponto = score[0] + score[1] + score[2] + score[3] + score[4] + score[5] + score[6] + score[7] + score[8] + score[9] + score[10] + score[11];
+localStorage.setItem("ponto", ponto)
+let a = localStorage.getItem("ponto");
 
 // for(var i = 0;)
 
 if(localStorage.getItem("soma") > a){
 
-  document.getElementById("saida").textContent = localStorage.getItem("soma") + " de 120"
-  document.textContent("saida2").textContent = localStorage.getItem("soma")
+  document.getElementById("saida").textContent = localStorage.getItem("ponto") + " de 120"
+  document.textContent("saida2").textContent = localStorage.getItem("ponto")
 }
 else{
 
-  document.getElementById("saida").textContent = localStorage.getItem("soma") + " de 120"
+  document.getElementById("saida").textContent = localStorage.getItem("ponto") + " de 120"
   document.getElementById("saida2").textContent = a;
 }
 }

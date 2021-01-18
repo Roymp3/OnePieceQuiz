@@ -8,7 +8,7 @@
    margin: 42px;
    margin-left: 170px;
    border-radius: 10%;
-   box-shadow: rgb(255, 202, 103) 6px 6px;
+   box-shadow: rgb(255, 202, 103) 6px 6px 6px;
    }   
 #image{
        text-align: center;
