@@ -1,0 +1,109 @@
+@media only screen and (max-width:1024px){
+    #card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9,#card10,#card11,#card12{
+        background-color: rgb(219, 161, 36);
+        width: 100%;
+        height: 491px;
+        text-align: center;
+        align-content: center;
+        margin-right: 0px;
+        border-radius: 10%;
+        margin: 0px;
+        margin-top: 32px;
+        box-shadow: rgb(255, 202, 103) 6px 6px;
+    }
+  
+    #image{
+        text-align: center;
+        height: 66%;
+        width: 59%;
+        padding-top: 8px;
+        border-radius: 27px;
+    }
+
+     #Titulo{
+            
+            text-align: center;
+    }        
+    body{
+        align-items: center;
+        display: grid;
+        grid-template-columns: auto;
+        background-color: orange;
+        font-family: arial;
+        font-size: 12px;
+        margin: 0;
+    }
+
+              
+    
+     #resp{
+    
+           border: none;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    width: 82px;
+    height: 71px;
+    margin-left: 16%;
+    margin-bottom: -206px;
+    }
+     #resp:hover{
+    
+        background-color: rgb(230, 143, 68);
+    }
+    #ranking{
+    
+        border: none;
+        background-color: rgb(255, 166, 0);
+        border-radius: 5px;
+        width: 77px;
+        height: 71px;
+        margin-left: 2;
+        margin-left: 70%;
+        margin-bottom: -6px;
+    
+    }
+    
+    #recorde{
+    
+        background-color: orange;
+        width: 138px;
+        height: 29px;
+        border-radius: 5px;
+        margin-left: 13px;
+        margin-bottom: -34%
+    
+    }
+    #recorde2{
+        background-color: orange;
+        width: 129px;
+        height: 28px;
+        border-radius: 5px;
+        margin-left: 57%;
+        margin-bottom: -34%;
+    }
+    #saida,#saida2{
+    
+    
+       font-size: medium;
+    }
+    #logo{
+        background-color: orange;
+        width: 51%;
+        height: 87%;
+        text-align: center;
+        margin-left: 142px;
+        margin-top: 3%;
+        border-radius: 10px;
+    }
+    *{
+        margin: 0px;
+    }
+    
+}
+ 
+   
+    
+
+
+
+
