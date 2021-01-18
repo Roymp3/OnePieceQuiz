@@ -65,6 +65,10 @@ body{
   margin-left: 851px;
   margin-top: -5px;
 }
+#ranking:hover{
+
+  background-color: rgb(230, 143, 68);
+}
 
 #recorde{
 
