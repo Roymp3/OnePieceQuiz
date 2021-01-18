@@ -4,7 +4,7 @@ function resposta1(){
      resp[0]  = document.getElementById("pergunta2").checked
      resp[1] = document.getElementById("pergunta4").checked
      resp[2] = document.getElementById("pergunta6").checked
-     resp[3] = document.getElementById("pergunta11").checked
+     resp[3] = document.getElementById("pergunta9").checked
      resp[4] = document.getElementById("pergunta12").checked
      resp[5] = document.getElementById("pergunta15").checked
      resp[6] = document.getElementById("pergunta18").checked
