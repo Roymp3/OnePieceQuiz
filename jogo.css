@@ -1,0 +1,106 @@
+
+#card1,#card2,#card3,#card4,#card5,#card6,#card7,#card8,#card9,#card10,#card11,#card12{
+   background-color: rgb(219, 161, 36);
+   width: 590px;
+   height: 522px;
+   text-align: center;
+   align-content: center;
+   margin: 42px;
+   margin-left: 170px;
+   border-radius: 10%;
+   box-shadow: rgb(255, 202, 103) 6px 6px;
+   }   
+#image{
+       text-align: center;
+       height: 59%;
+       width: 306px;
+       padding-top: 8px;
+       border-radius: 27px;
+       
+}
+#chapeu{
+
+   margin-left: 1px;
+   height: 100px;
+   width: 100px;
+}
+#Titulo{
+       
+       text-align: center;
+}
+       
+body{
+       align-items: center;
+       display: grid;
+       grid-template-columns: auto auto;
+       background-color: orange;
+       margin-left: -70px;
+       font-family: arial;
+       font-size: 12px;
+
+   }
+       
+
+#resp{
+
+   border: none;
+   background-color: rgb(255, 166, 0);
+   border-radius: 5px;
+   width: 23%;
+   height: 99%;
+   margin-left: 850px;
+   margin-top: -49px;
+}
+#resp:hover{
+
+   background-color: rgb(230, 143, 68);
+}
+#ranking{
+
+  border: none;
+  background-color: rgb(255, 166, 0);
+  border-radius: 5px;
+  width: 23%;
+  height: 284%;
+  margin-left: 851px;
+  margin-top: -5px;
+}
+#ranking:hover{
+
+  background-color: rgb(230, 143, 68);
+}
+
+#recorde{
+
+  background-color: orange;
+  width: 129px;
+  height: 29px;
+  border-radius: 5px;
+  margin-left: 46%;
+  margin-bottom: -2%;
+
+}
+#recorde2{
+
+  background-color: orange;
+  width: 120px;
+  height: 28px;
+  border-radius: 5px;
+  margin-left: 27%;
+  margin-top: -1%;
+}
+#saida,#saida2{
+
+
+  font-size: medium;
+}
+#logo{
+
+  background-color: orange;
+  width: 23%;
+  height: 87%;
+  text-align: center;
+  margin-left: 848px;
+  margin-top: 3%;
+  border-radius: 10px;
+}
