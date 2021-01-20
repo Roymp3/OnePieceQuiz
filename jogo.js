@@ -186,7 +186,6 @@ document.getElementById("resposta12").textContent = "Errou !!"
 ponto = score[0] + score[1] + score[2] + score[3] + score[4] + score[5] + score[6] + score[7] + score[8] + score[9] + score[10] + score[11];
 
 if(ponto > point){
-
   nome = prompt("Novo recorde, informe seu nick: ")
   localStorage.setItem("novoRecorde", nome)
   localStorage.setItem("recorde",ponto)
@@ -203,5 +202,4 @@ function refresh(){
 
     window.location.reload();
     window.scrollTo(0,0)
-
 }
