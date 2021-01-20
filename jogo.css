@@ -54,6 +54,7 @@ body{
 #resp:hover{
 
    background-color: rgb(230, 143, 68);
+  transform: scale(1.05);
 }
 #ranking{
 
@@ -68,6 +69,7 @@ body{
 #ranking:hover{
 
   background-color: rgb(230, 143, 68);
+  transform: scale(1.05);
 }
 
 #recorde{
@@ -78,6 +80,7 @@ body{
   border-radius: 5px;
   margin-left: 46%;
   margin-bottom: -2%;
+
 
 }
 #recorde2{
@@ -104,3 +107,5 @@ body{
   margin-top: 3%;
   border-radius: 10px;
 }
+
+    
