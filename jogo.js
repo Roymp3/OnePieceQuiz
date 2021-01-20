@@ -190,12 +190,12 @@ if(ponto > point){
   nome = prompt("Novo recorde, informe seu nick: ")
   localStorage.setItem("novoRecorde", nome)
   localStorage.setItem("recorde",ponto)
-  document.getElementById("saida2").textContent = `Recorde: ${localStorage.getItem("recorde")}`
+  document.getElementById("saida2").textContent = `Recorde: ${localStorage.getItem("recorde")} (${localStorage.getItem("novoRecorde")})`
 
 }
 else{
 
-  document.getElementById("saida2").textContent = ` Recorde: ${localStorage.getItem("recorde")}`
+  document.getElementById("saida2").textContent = ` Recorde: ${localStorage.getItem("recorde")} (${localStorage.getItem("novoRecorde")})`
 }
 document.getElementById("saida").textContent = ` SCORE: ${ponto} `
 }
